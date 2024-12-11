@@ -78,12 +78,20 @@
 // console.log(athlete['age']);
 // console.log(athlete.age);
 // console.log(athlete[myVariable]);
-const athlete = {
-    name: 'habibul bashar',
-    age: 324,
-    trophy: ['t20 cricket', 'bbl leage', 'hablu cricket']
-}
+// const athlete = {
+//     name: 'habibul bashar',
+//     age: 324,
+//     trophy: ['t20 cricket', 'bbl leage', 'hablu cricket']
+// }
 
-const about = `my name is ${athlete.name} my age ${athlete.age} i have trophy like ${athlete.trophy}`
+// const about = `my name is ${athlete.name} my age ${athlete.age} i have trophy like ${athlete.trophy}`
 
-console.log(about);
+// console.log(about);
+
+const products = [
+    {name: 'laptop', price: 303300, brand: 'hp', color: 'red'},
+    {name: 'laptop', price: 33000, brand: 'lenovo', color: 'green'},
+    {name: 'laptop', price: 30300, brand: 'iphone', color: 'yellow'},
+];
+const price = products.map(product => product.price);
+console.log(price);
